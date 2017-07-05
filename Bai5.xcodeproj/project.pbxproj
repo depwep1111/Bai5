@@ -14,6 +14,7 @@
 		7648ECD41F0CDB9F00FA94FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7648ECD21F0CDB9F00FA94FC /* LaunchScreen.storyboard */; };
 		7648ECDF1F0CDB9F00FA94FC /* Bai5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648ECDE1F0CDB9F00FA94FC /* Bai5Tests.swift */; };
 		7648ECEA1F0CDB9F00FA94FC /* Bai5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648ECE91F0CDB9F00FA94FC /* Bai5UITests.swift */; };
+		7648ECF81F0CDBCF00FA94FC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648ECF71F0CDBCF00FA94FC /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7648ECE51F0CDB9F00FA94FC /* Bai5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bai5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7648ECE91F0CDB9F00FA94FC /* Bai5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai5UITests.swift; sourceTree = "<group>"; };
 		7648ECEB1F0CDB9F00FA94FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7648ECF71F0CDBCF00FA94FC /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = ../Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7648ECC91F0CDB9F00FA94FC /* AppDelegate.swift */,
 				7648ECCB1F0CDB9F00FA94FC /* ViewController.swift */,
+				7648ECF71F0CDBCF00FA94FC /* Protocol.swift */,
 				7648ECCD1F0CDB9F00FA94FC /* Main.storyboard */,
 				7648ECD01F0CDB9F00FA94FC /* Assets.xcassets */,
 				7648ECD21F0CDB9F00FA94FC /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				7648ECCC1F0CDB9F00FA94FC /* ViewController.swift in Sources */,
 				7648ECCA1F0CDB9F00FA94FC /* AppDelegate.swift in Sources */,
+				7648ECF81F0CDBCF00FA94FC /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
